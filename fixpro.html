@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="uft-8">
+        <meta name="cords" content="project">
+        <title>cruds</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+   <div class="all">
+    <div class="title">
+        <h1>GIFT CRUDS</h1>
+        <P>product management system</P>
+    </div>
+    <div class="inputs">
+        <input id="Titre" type="text" placeholder="Titre">
+        <div class="price">
+            <input onkeyup="gettotal()" id="Price" type="number" placeholder="Price">
+            <input onkeyup="gettotal()" id="Ads"type="number" placeholder="Ads">
+            <input onkeyup="gettotal()" id="Taxes"type="number" placeholder="Taxes">
+            <input onkeyup="gettotal()" id="Discount"type="number" placeholder="Discount">
+            <small  id="totat"></small>
+        </div>
+        <input id="Amout" type="text" placeholder="Amout">
+        <input id="Category" type="text" placeholder="Category">
+        <button id="creat">creat</button>
+    </div>
+    <input onkeyup="searchtdata(this.value)" id="search" type="text" placeholder="search">
+    <div class="search">
+        <button onclick="searchmood(this.id)" id="searcht">searsh by title</button>
+        <button onclick="searchmood(this.id)" id="searchc">searsh by category</button>
+    </div>
+    <div id="DeletAll">
+        
+    </div>
+    <div class="table">
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>TITLE</th>
+                    <th>PRICE</th>
+                    <th>ADS</th>
+                    <th>DISCOUNT</th>
+                    <th>TOTAL</th>
+                    <th>CATEGORY</th>
+                    <th>UPDATE</th>
+                    <th>DELETE</th>
+                </tr>
+                
+            </thead>
+            <tbody id="tbody">
+             
+            </tbody>
+        </table>
+    </div>
+   </div>
+
+
+        <script src="fixbrine.js">
+
+        </script>
+    </body>
+</html>

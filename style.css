@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    height: 100vh;
+    width:100%;
+    background:rgb(15, 15, 15);
+    color: white;
+    text-align: center;
+
+    
+}
+.all{
+    height:100%;
+    width:80%;
+    margin-left: 10%;
+    
+}
+.inputs {
+    margin:20px 0
+}
+input{
+    width: 100%;
+    padding:20px 5px;
+    margin:5px 0 ;
+    background:black;
+    color:white;
+    border:none;
+    border-radius:5px;
+    transition:0.5s
+    
+}
+input:focus{
+    transform:scale(1.1)
+}
+.price{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    gap: 10px;
+}
+#totat{
+    background:red;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+#totat::before{
+    content:'Totale:'
+}
+
+
+#creat{
+    width: 100%;
+    background:rgb(83, 0, 83);
+    border:none;
+    border-radius: 20px;
+    padding:11px 0;
+    color: white;
+    margin-top: 8px;
+    font-size: 20px;
+    text-transform:uppercase;
+    font-weight:500;
+    transition:0.5s;
+    cursor: pointer;
+}
+#creat:hover{
+    letter-spacing:2px;
+    transform:scale(1.1)
+    
+}
+.search{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.search button{
+    background:rgb(83, 0, 83);
+    border:none;
+    width:30%;
+    padding:16px 0;
+    border-radius: 20px;
+    color:white;
+    font-size: 15px;
+    cursor: pointer;
+    transition:0.5s
+    
+}
+.search button:hover{
+    transform: scale(1.1);
+    letter-spacing: 2px;
+}
+table{
+    width: 100%;
+    margin: 25px 0;
+}
+table tr,th,td{
+    font-size: 20px;
+    padding: 15px;
+}
+table button{
+    padding:10px;
+    border-radius: 20px;
+    background:rgb(112, 0, 112);
+    border:none;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+table button:hover{
+    transform:scale(1.1);
+    
+}
+
+#DeletAll button{
+    margin: 20px 0;
+    background: rgb(112, 0, 112);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 15px 0;
+    width: 100%;
+    font-size: 20px;
+    transition:0.5s;
+    cursor: pointer;
+}
+#DeletAll button:hover{
+    letter-spacing: 2px;
+}
